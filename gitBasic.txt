@@ -1,0 +1,13 @@
+Git Command
+
+clone
+add
+commit
+push
+pull
+
+green color in commit change is these line were added to this file (+)
+red color in commit change is these line were deleted to this file (-)
+
+
+1111
