@@ -8,3 +8,10 @@ No ?
 ## Local Development
 
 1. open Index.html
+
+
+
+2. from quick test
+
+2. from main 
+
