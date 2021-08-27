@@ -10,4 +10,8 @@ No ?
 1. open Index.html
 
 
+<<<<<<< HEAD
 2. from quick test
+=======
+2. from main 
+>>>>>>> main
