@@ -5,9 +5,63 @@ add
 commit
 push
 pull
+status
+diff
+
+
+git push command
+git push -u origin   master   //-u upstream
+              |        |     
+		   default  branch
+		   
+		   
+with repo at local
+git remote add origin <git@github.com:...> -- cp in github
+		   
+git branch  //show branch 
+
+
+git checkout <nameofBranch>  //switch branch
+
+git checkout -b <nameofBranch>  //switch branch and add new nameofBranch
+
+git diff <branch>   //show diff of master and new nameofBranch
+
+//Sau khi merge new nameofBranch to master thì nên xóa branch đó đi
+
+git branch -d <nameofBranch>
+
+
+git commit -am ""   //a for git add comment
+					//m for message
+##chỉ sử dụng được khi sửa file đã tồn tại
+##với file mới thì vẫn phải dùng 2 lệnh	
+
+
+
+## việc merge master branch vô branch của mình
+lý do là vì khi làm dự án
+ai cũng sẽ merge vo master nên để source code hiện tại là mới nhất
+và khi bị bỏ lại quá xa, nên sẽ phải merge từ master vô branch của mình
+
+
+			
+
+##undoing
+th1: git add <filename>
+
+git reset
+
+th2: after commit
+
+
+
+
 
 green color in commit change is these line were added to this file (+)
 red color in commit change is these line were deleted to this file (-)
 
 
-1111
+fork
+clone nguyen cai sourcecode cua nguoi khac de co full control
+
